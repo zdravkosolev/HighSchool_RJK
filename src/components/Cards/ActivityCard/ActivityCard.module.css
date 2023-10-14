@@ -1,0 +1,12 @@
+.activityCard {
+  width: 320px;
+  height: 260px;
+  flex-shrink: 1;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 29px 38px 57px 4px rgba(9, 30, 57, 0.1);
+}
+.activityCard p {
+  font-size: 24px;
+  margin-top: 20px;
+}

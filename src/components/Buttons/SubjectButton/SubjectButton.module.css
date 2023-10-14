@@ -1,0 +1,6 @@
+.subjectButton {
+  padding: 0px 26px;
+  border-radius: 15px;
+  border: 2px solid theme("colors.button.blue.default");
+  font-size: 24px;
+}

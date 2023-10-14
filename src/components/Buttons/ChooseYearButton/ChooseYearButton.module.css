@@ -1,0 +1,11 @@
+.chooseYearButton {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+.chooseYearButtonUpper {
+  font-size: 30px;
+}
+.chooseYearButtonBottom {
+  font-size: 25px;
+}

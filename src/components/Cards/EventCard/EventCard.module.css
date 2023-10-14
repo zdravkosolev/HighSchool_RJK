@@ -1,0 +1,36 @@
+.eventCard {
+  display: flex;
+  max-width: 482px; 
+  padding: 32px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: var(--white, #f9f9f9);
+  box-shadow: 18px 14px 50px 4px rgba(9, 30, 57, 0.1);
+}
+.eventCardImgDiv {
+  border-radius: 15px;
+  background: lightgray 50%, cover no-repeat;
+}
+
+.eventCardInfoDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.eventCardInfoDiv h2 {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+.eventCardInfoDiv p {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.eventCardInfoDiv .datePtag {
+  text-align: right;
+  font-size: 16px;
+}

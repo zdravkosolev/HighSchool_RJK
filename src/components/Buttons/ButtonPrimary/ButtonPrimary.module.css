@@ -1,0 +1,24 @@
+.customButton {
+  font-size: 26px;
+  padding: 6px 40px 6px 40px;
+  border-radius: 15px;
+}
+.customButtonGreen {
+  background-color: theme("colors.button.green.default");
+}
+.customButtonGreen:hover {
+  background-color: theme("colors.button.green.hover");
+}
+.customButtonGreen:active {
+  background-color: theme("colors.button.green.active");
+}
+
+.customButtonBlue {
+  background-color: theme("colors.button.blue.default");
+}
+.customButtonBlue:hover {
+  background-color: theme("colors.button.blue.hover");
+}
+.customButtonBlue:active {
+  background-color: theme("colors.button.blue.active");
+}

@@ -1,0 +1,64 @@
+.headSection {
+    height: 485px;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2) 10%,
+      rgba(0, 0, 0, 0.9) 80%
+    ), url(../../Images/grupniNagradi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .headParagraph{
+    font-size: 56px;
+  }
+  .soopshtenijaContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 30px; 
+  }
+  .soopshtenijaHeader{
+    font-size: 46px;
+  }
+  .otvorenDenSection{
+    padding: 30px 100px;
+    border: 3px solid #5FA4BD;
+    border-radius: 40px;
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .nagradeniUceniciContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 14px;
+  }
+  .nagradeniUceniciCard{
+    width: 100%;
+    padding: 20px;
+  }
+  .nagradeniUceniciImg{
+    border-radius: 20px;
+   width: 100%;
+   object-fit: cover;
+  }
+  .nagradeniUceniciName{
+    font-size: 32px;
+  }
+  .nagradeniUceniciParagraphs{
+    font-size: 20px;
+  }
+  .documentiContainer {
+    flex-direction: column;
+  }
+  .documentiHeader{
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    width: 130px;
+    margin-bottom: 20px;
+  }
+  .pdfImg{
+    border-right: 1px solid black;
+  }
+  .documentiAtag{
+    font-size: 25px;
+  }

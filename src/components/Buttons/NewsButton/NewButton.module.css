@@ -1,0 +1,12 @@
+.newsButton {
+  padding: 0px 20px;
+  border-radius: 15px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 56px;
+  border: 2px solid theme("colors.button.green.default");
+}
+.active {
+  background: theme("colors.button.green.default");
+  color: #fff;
+}

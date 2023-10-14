@@ -1,0 +1,34 @@
+.carouselSection {
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+.arrowContainer {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+.arrowContainer img {
+  box-sizing: border-box;
+}
+.arrowButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+
+  right: -80px;
+  bottom: -60px;
+  z-index: 10;
+  width: 188px;
+  height: 188px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #023859;
+}
