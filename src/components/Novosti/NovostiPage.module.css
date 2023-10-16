@@ -11,11 +11,22 @@
   .headParagraph{
     font-size: 56px;
   }
-  .soopshtenijaContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 30px; 
+  .soopshtenijaHeadContainer{
+    background: 
+    url("../BottomHomePage/OglasnaTabla/pattern_1.png") 100% 0% / 100px 100px no-repeat,
+    url("../BottomHomePage/OglasnaTabla/pattern_1.png") 0% 100% / 100px 100px no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
   }
+  .soopshtenijaContainer {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  
   .soopshtenijaHeader{
     font-size: 46px;
   }

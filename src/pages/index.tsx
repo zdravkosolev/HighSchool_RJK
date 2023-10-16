@@ -9,6 +9,7 @@ import ButtonPrimary from "@/components/Buttons/ButtonPrimary/ButtonPrimary";
 import bannerImage from "../Images/Img - Hero - Girl.png";
 import Link from "next/link";
 import { OglasnaTabla } from "@/components/BottomHomePage/OglasnaTabla/OglasnaTabla";
+import PrestojniNastani from "@/components/PrestojniNastani/PrestojniNastani";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -54,7 +55,11 @@ export default function Home() {
 
         <Prosvetilka />
         <OglasnaTabla/>
+
+        <PrestojniNastani/>
+
         <BottomHomePage />
+        
       </main>
     </>
   );

@@ -1,0 +1,39 @@
+.PrestojniNastaniSection{
+        box-sizing: border-box;
+        
+}
+.NastaniImages{
+
+    border-radius: 20px;
+   
+   align-items: center;
+}
+.HeaderStyles{
+    font-size: 46px;
+}
+
+.NastaniMainContainer{
+    width: 50%;
+}
+
+.NastanContainer{
+   width: 100%   ;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 20px;
+background: var(--light-blue, #5FA4BD);
+}
+.NastaniDate{
+    text-align: center;
+    width: 25%;
+    border-radius: 10px;
+font-size: 32px;
+font-weight: 700;
+line-height: 31px;
+text-transform: uppercase;
+}
+.NastaniHeader{
+    font-size: 26px;
+    font-weight: 700;
+}

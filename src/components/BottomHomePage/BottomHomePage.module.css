@@ -1,6 +1,7 @@
 .carouselSection {
   box-sizing: border-box;
   margin-bottom: 100px;
+  padding: 100px 0px;
 }
 
 .arrowContainer {

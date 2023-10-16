@@ -11,3 +11,10 @@ export interface StaffInfoType {
   lastname: string;
   email: string;
 }
+
+export interface NastaniType {
+  image: string;
+  title: string;
+  date: string;
+  location: string
+}
