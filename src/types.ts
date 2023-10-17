@@ -13,8 +13,9 @@ export interface StaffInfoType {
 }
 
 export interface NastaniType {
-  image: string;
+  image?: string | undefined;
   title: string;
+  time: string;
   date: string;
   location: string
 }

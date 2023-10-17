@@ -14,6 +14,7 @@
 
 .NastaniMainContainer{
     width: 50%;
+    
 }
 
 .NastanContainer{
@@ -25,6 +26,9 @@
 background: var(--light-blue, #5FA4BD);
 }
 .NastaniDate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 25%;
     border-radius: 10px;
@@ -33,7 +37,12 @@ font-weight: 700;
 line-height: 31px;
 text-transform: uppercase;
 }
+.NastaniInfo{
+    width: 75%;
+    padding-left: 35px;
+}
 .NastaniHeader{
     font-size: 26px;
     font-weight: 700;
+    text-align: start;
 }

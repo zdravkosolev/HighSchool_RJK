@@ -7,7 +7,7 @@ import CountdownTimer from "../Other/Timer";
 const Prosvetilka = () => {
   const targetDate = new Date("2023-10-11T00:00:00");
   return (
-    <div className="w-full flex justify-center mb-52 relative">
+    <div className="w-full flex justify-center mb-5 relative">
       <div className="w-4/5 bg-primary-blue rounded-3xl flex px-8">
         <div className="w-1/2 ">
           <div className="flex flex-col gap-10 py-14 ml-20 text-white ">

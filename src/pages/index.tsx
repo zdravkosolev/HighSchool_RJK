@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import iconGroup from "../Images/iconGroup.png"
+import airplane from "../Images/airplane.png"
+import timeIcon from "../Images/time.png"
+import StudentIcon from"../Images/student.png"
 
 import BottomHomePage from "@/components/BottomHomePage/BottomHomePage";
 import ActivityList from "@/components/Other/ActivityList";
@@ -10,6 +14,7 @@ import bannerImage from "../Images/Img - Hero - Girl.png";
 import Link from "next/link";
 import { OglasnaTabla } from "@/components/BottomHomePage/OglasnaTabla/OglasnaTabla";
 import PrestojniNastani from "@/components/PrestojniNastani/PrestojniNastani";
+import HomePageButton from "@/components/Buttons/HomePageButtons/HomePageButtons";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -30,9 +35,8 @@ export default function Home() {
                   <span className="text-secondary-red">корчагин</span>
                 </h1>
                 <p className="mb-7 text-2xl">
-                  Lorem Ipsum е едноставен модел на текст кој се користел во
-                  печатарската индустрија. Lorem ipsum бил индустриски стандард
-                  кој се користел како модел уште пред 1500 години.
+                СУГС Гимназија „Раде Јовчевски-Корчагин“ - Скопје, општина Центар, Република Северна Македонија, основано 1960 год.
+Училиштето (Гимназијата) е средно училиште од посебен општествен интерес. Сместена е на ул. Трета Македонска Ударна Бригада бр.9. Нејзина основна дејност е организирање на воспитно-образовниот процес за остварување на плановите и програмите од гимназиското образование во Република Северна Македонија
                 </p>
                 <div>
                   <Link href={"/za-nas"}>
@@ -40,7 +44,24 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
+              
               <div className="shrink-0 w-1/2 relative  ">
+              <div style={{ width:"200px",zIndex: 1 , position:"absolute", top:"180px", left:"-80px"}}>
+
+                <HomePageButton icon={StudentIcon} text={"1000+ Ученици"} bgcolor={"#FF5656"}/>
+                </div>
+                <div style={{ width:"200px",  zIndex: 100, position:"absolute", top:"450px", left:"510px"}}>
+
+                <HomePageButton icon={iconGroup} text={"63+ Паралелки"} bgcolor={"#84AEFF"}/>
+                </div>
+                <div style={{ width:"200px", zIndex: 100, position:"absolute", top:"600px", left:"-150px"}}>
+
+                <HomePageButton icon={timeIcon} text={"60+ Години"} bgcolor={"#5FA4BD"}/>
+                </div>
+                <div style={{ width:"250px",zIndex: 100 , position:"absolute", top:"750px", left:"200px"}}>
+
+                <HomePageButton icon={airplane} text={"3+ Еразмус проекти"} bgcolor={"#FF5656"}/>
+                </div>
                 <Image
                   src={bannerImage}
                   alt="Banner image"
