@@ -1,3 +1,4 @@
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { StringLiteral } from "typescript";
 
 export interface AboutCardType {
@@ -24,8 +25,16 @@ export interface NastaniType {
 
 export interface NastaniSoopshtenijaCardType {
   id: string;
-  image: string | undefined;
+  image: string | StaticImport;
   title: string;
   description: string;
   date: string;
+}
+
+export interface NagradeniUceniciCardType{
+  id: string;
+  img: string;
+  name: string;
+  place: string;
+  category: string;
 }

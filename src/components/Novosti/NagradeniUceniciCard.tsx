@@ -1,45 +1,44 @@
 import React from "react";
 import styles from "./NovostiPage.module.css";
-import imageOne from "../../Images/NagradeniUcenici1.png";
+
 import Image from "next/image";
+import { NagradeniUceniciCardType } from "@/types";
 
-// interface Props{
-//     img: string;
-//     name: string;
-//     place: string;
-//     category: string;
-// }
+interface Props {
+  data: NagradeniUceniciCardType;
+}
 
-const ImageOne = imageOne;
-export const NagradeniUceniciCard = () => {
-  return (
-    // <div>
-    //     <img src={img} alt="" />
-    //     <h2>{name}</h2>
-    //     <p>{place}</p>
-    //     <p>{category}</p>
-    // </div>
+export const NagradeniUceniciCard: React.FC<Props> = ({ data }) => {
+  const { id, img, name, place , category } = data;
+  
+  return ( 
+    
 
     <div className={`${styles.nagradeniUceniciCard}`}>
+      <div style={{height: "240px"}}>
+
       <Image
-        src={ImageOne}
-        alt="image1"
+        width={300}
+        height={300}
+        src={img}
+        alt={id}
         className={`w-100 ${styles.nagradeniUceniciImg}`}
       />
+      </div>
       <h2
         className={`font-heading font-semibold pt-4 ${styles.nagradeniUceniciName}`}
       >
-        Име Презиме
+        {name}
       </h2>
       <p
         className={`font-regular italic pt-4  ${styles.nagradeniUceniciParagraphs}`}
       >
-        I место
+        {place}
       </p>
       <p
         className={`font-regular italic pt-4  ${styles.nagradeniUceniciParagraphs}`}
       >
-        Натпревар по математика
+        {category}
       </p>
     </div>
   );

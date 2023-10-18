@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./NovostiPage.module.css";
 import { NagradeniUceniciCard } from "./NagradeniUceniciCard";
+import { NagradeniUceniciCardType } from "@/types";
 
 interface Props {
-  img: string;
-  name: string;
-  place: string;
-  category: string;
+  data: NagradeniUceniciCardType[]
 }
 
-export const NagradeniUcenici = () => {
+export const NagradeniUcenici: React.FC<Props> = ({ data }) => {
   return (
     <div className="px-40 py-20 ">
       <h1
@@ -17,13 +15,19 @@ export const NagradeniUcenici = () => {
       >
         Наградени и успешни ученици
       </h1>
-      {/* map na karticka po niza na nagradeni ucenici. return component */}
       <div className={`flex ${styles.nagradeniUceniciContainer}`}>
-        <NagradeniUceniciCard />
-        <NagradeniUceniciCard />
-        <NagradeniUceniciCard />
-        <NagradeniUceniciCard />
+      {data.map((el)=> {
+        return(
+          <>
+          <NagradeniUceniciCard key={el.id} data={el} />
+          </>
+        )
+      })}
       </div>
+    
+      
+       
+      
     </div>
   );
 };

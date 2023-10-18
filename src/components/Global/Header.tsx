@@ -70,16 +70,17 @@ const Header = () => {
         {/* linkovi i dropdowns */}
         <ul
           className="flex  items-center  gap-4 font-semibold "
-          style={{ color: "#00000080" }}
+          style={{ color: "#00000080", fontSize:"14px" }}
         >
           <li>
             <DropDownMenuList
               staticNames={{
                 ulName: "За Нас",
                 linkone: "Директор",
-                linktwo: "Стефан Сидовски - Сидо",
                 linkOneHref: "/za-nas",
+                linktwo: "Стефан Сидовски - Сидо",
                 linkthree: "Куќен ред",
+                linkThreeHref: "za-nas/kukjen-red",
                 linkfour: "Годишна програма",
                 linkfive: "Правилници и извештаи",
                 linksix: "Завршни сметки",
@@ -90,13 +91,15 @@ const Header = () => {
           <li>
             <DropDownMenuList
               staticNames={{
-                ulName: "Уписи",
-                linkone: "Кадар",
-                linkOneHref: "/nastava/kadar",
-                linktwo: "Филозофија",
-                linkthree: "Распоред на часови",
-                linkfour: "Државна матура",
-                linkfive: "Билингвална паралелка",
+                ulName: "Настава",
+                linkone: "Уписи",
+                linktwo: "Кадар",
+                linkTwoHref: "/nastava/kadar",
+                linkthree: "Филозофија",
+                linkfour: "Распоред на часови",
+                linkfive: "Државна матура",
+                linksix: "Билингвална паралелка",
+                linkSixHref:"/nastava/bilingvinalna-paralelka"
               }}
             />
           </li>
@@ -105,7 +108,7 @@ const Header = () => {
               staticNames={{
                 ulName: "Новости",
                 linkone: "Соопштенија",
-                linkOneHref: "/novosti",
+                linkOneHref: "/novosti/soopshtenija",
                 linktwo: "Настани",
                 linkthree: "Отворен ден",
                 linkfour: "Наградени и успешни ученици",
@@ -121,7 +124,7 @@ const Header = () => {
             />
           </li>
           <li>
-            <Link href="#">Алумни</Link>
+            <Link href="/ucilishna-zaednica">Училишна заедница</Link>
           </li>
           <li>
             <DropDownMenuList

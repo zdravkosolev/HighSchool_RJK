@@ -79,25 +79,55 @@
     "nastani":[
       {
         "id": "1",
-        "image":"url",
-        "title":"Наслов-1",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
-        "date":"15.09.2023"
+        "image": "/Images/nastaniFrancuski.jpg",
+        "title":"Француски јазик",
+        "description":"На државниот натпревар по изразно читање на француски јазик 2023, на тема Страв, нашата ученичка Тамара Татабитовска од прва година билингвална паралелка...",
+        "date":"01/04/2023"
       },
       {
         "id": "2",
-        "image":"url",
-        "title":"Наслов-2",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
-        "date":"01.12.2023"
+        "image":"/Images/nastaniDodeluvanjeNagradi.jpg",
+        "title":"Доделување награди",
+        "description":"Доделување награди и дипломи за постигнатите резултати од натпреварите по француски јазик во 2023 г. за прво, второ и трето место во организација на Bel ideal, Француски институт, АПФРМ.",
+        "date":"22/04/2023"
       },
       {
         "id": "3",
-        "image":"url",
-        "title":"Наслов-3",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
-        "date":"22.06.2023"
+        "image":"/Images/NastaniLatinski.jpg",
+        "title":"Латински јазик",
+        "description":"Методија Тасевски, III 7, златна диплома на европското тестирање и прво место на државен натпревар по латински јазик.",
+        "date":"26/03/2023"
       }
-    ]
+    ],
+    "nagradeniUcenici":[{
+      "id":"1",
+      "img": "/Images/nagradeniUcenici1.png",
+      "name": "Име Презиме",
+      "place": "I Место",
+      "category": "Математика"
+    },
+    {
+      "id":"2",
+      "img": "/Images/nagradeniUcenici2.png",
+      "name": "Име Презиме",
+      "place": "I Место",
+      "category": "Математика"
+    },
+    {
+      "id":"3",
+      "img": "/Images/nagradeniUcenici3.png",
+      "name": "Име Презиме",
+      "place": "I Место",
+      "category": "Математика"
+    },
+    {
+      "id":"4",
+      "img": "/Images/nagradeniUcenici4.png",
+      "name": "Име Презиме",
+      "place": "I Место",
+      "category": "Математика"
+    }
+  ]
+      
   
 }

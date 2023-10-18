@@ -1,8 +1,6 @@
 
 import React from 'react'
 import styles from "./NovostiPage.module.css"
-import EventCard from '@/components/Cards/EventCard/EventCard'
-import { NastaniCardType, SoopshtenijaCardType } from './types';
 import { NastaniCard } from '../Cards/NastaniCard/NastaniCard';
 import { NastaniSoopshtenijaCardType } from '@/types';
 
@@ -18,9 +16,8 @@ interface Props {
                 <h1 className={`text-center font-semibold font-heading pb-5 ${styles.soopshtenijaHeader}`}>Настани</h1>
                 <div className={`w-100 ${styles.soopshtenijaContainer}`}>
                    {data.map((el) => {
-                    console.log(el);
                     return (
-                        <NastaniCard key={el.id} data={el} /> // Pass the individual el data to NastaniCard
+                        <NastaniCard key={el.id} data={el} /> 
                     );
                    })}
                 </div>

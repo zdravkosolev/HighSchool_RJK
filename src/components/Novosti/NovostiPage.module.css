@@ -42,15 +42,27 @@
     grid-template-columns: repeat(4, 1fr); 
     gap: 14px;
   }
-  .nagradeniUceniciCard{
+  .nagradeniUceniciCard {
     width: 100%;
+    height: 100%;
     padding: 20px;
+    object-fit: cover;
   }
-  .nagradeniUceniciImg{
+  
+  .nagradeniUceniciImg {
     border-radius: 20px;
-   width: 100%;
-   object-fit: cover;
+    object-fit: cover;
+        width: 100%;
+  height: 100%;
+  object-position: top;
   }
+  .grupniNastaniImg{
+    object-fit: cover;
+    width: 100%;
+height: 100%;
+object-position: center;
+  }
+  
   .nagradeniUceniciName{
     font-size: 32px;
   }
