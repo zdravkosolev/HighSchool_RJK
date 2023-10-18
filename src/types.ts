@@ -1,3 +1,5 @@
+import { StringLiteral } from "typescript";
+
 export interface AboutCardType {
   image: string;
   title: string;
@@ -18,4 +20,12 @@ export interface NastaniType {
   time: string;
   date: string;
   location: string
+}
+
+export interface NastaniSoopshtenijaCardType {
+  id: string;
+  image: string | undefined;
+  title: string;
+  description: string;
+  date: string;
 }

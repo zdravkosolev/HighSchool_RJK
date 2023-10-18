@@ -1,32 +1,103 @@
-[
-  {
-    "title": "Lorem ipsum dolor sit amet",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
-    "date": "23.07.2021"
-  },
-  {
-    "title": "Lorem ipsum dolor sit amet",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
-    "date": "15.09.2022"
-  },
-  {
-    "title": "Lorem ipsum dolor sit amet",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
-    "date": "07.12.2022"
-  },
-  {
-    "title": "Lorem ipsum dolor sit amet",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
-    "date": "30.04.2023"
-  },
-  {
-    "title": "Lorem ipsum dolor sit amet",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
-    "date": "18.08.2023"
-  },
-  {
-    "title": "Lorem ipsum dolor sit amet",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
-    "date": "09.11.2023"
-  }
-]
+{
+  "array1":[
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
+      "date": "23.07.2021"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
+      "date": "15.09.2022"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
+      "date": "07.12.2022"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
+      "date": "30.04.2023"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
+      "date": "18.08.2023"
+    },
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod nisi in ex fringilla, sit amet luctus urna tristique. Ut eget tincidunt elit, a hendrerit justo. Suspendisse potenti. Nulla facilisi. Donec facilisis facilisis nunc vel facilisis. Nullam luctus vel sapien sit amet ultrices. Fusce scelerisque euismod massa, quis suscipit nulla tristique sit amet. Vestibulum ut magna sit amet nisl aliquam consectetur. Nulla facilisi. Fusce non purus lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla congue augue eget turpis porttitor bibendum. Suspendisse potenti.",
+      "date": "09.11.2023"
+    }
+  ],
+  "soopshtenija":
+    [
+      {
+        "id": "1",
+        "title": "Наслов-1",
+        "date": "23.07.2023",
+        "category": "Соопштенија",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+      },
+      {
+        "id": "2",
+        "title": "Наслов-2",
+        "date": "15.09.2023",
+        "category": "Соопштенија",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+      },
+      {
+        "id": "3",
+        "title": "Наслов-3",
+        "date": "07.12.2023",
+        "category": "Соопштенија",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+      },
+      {
+        "id": "4",
+        "title": "Наслов-4",
+        "date": "23.09.2023",
+        "category": "Соопштенија",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+      },
+      {
+        "id": "5",
+        "title": "Наслов-5",
+        "date": "19.02.2023",
+        "category": "Соопштенија",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+      },
+      {
+        "id": "6",
+        "title": "Наслов-6",
+        "date": "07.10.2023",
+        "category": "Соопштенија",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+      }
+    ],
+    "nastani":[
+      {
+        "id": "1",
+        "image":"url",
+        "title":"Наслов-1",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+        "date":"15.09.2023"
+      },
+      {
+        "id": "2",
+        "image":"url",
+        "title":"Наслов-2",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+        "date":"01.12.2023"
+      },
+      {
+        "id": "3",
+        "image":"url",
+        "title":"Наслов-3",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+        "date":"22.06.2023"
+      }
+    ]
+  
+}

@@ -10,7 +10,9 @@ export const Dokumenti = () => {
       <h3 className={`font-semibold font-heading ${styles.documentiHeader}`}>
         Документи
       </h3>
-      <Link
+      <div className={`flex justify-between`}>
+        <div>
+        <Link
         className={`nav-link flex mb-3 align-center ${styles.documentiAtag} `}
         href="./pdf/challenge_js.pdf"
         download
@@ -32,6 +34,86 @@ export const Dokumenti = () => {
         </span>{" "}
         Download pdf
       </Link>
+        </div>
+
+        <div>
+        <Link
+        className={`nav-link flex mb-3 align-center ${styles.documentiAtag} `}
+        href="./pdf/challenge_js.pdf"
+        download
+      >
+        {" "}
+        <span className={` pr-3 mr-3 ${styles.pdfImg}`}>
+          <Image src={pdfImage} alt="" />
+        </span>{" "}
+        Download pdf
+      </Link>
+      <Link
+        className={`nav-link flex  ${styles.documentiAtag}`}
+        href="./pdf/challenge_js.pdf"
+        download
+      >
+        {" "}
+        <span className={` pr-3 mr-3 ${styles.pdfImg}`}>
+          <Image src={pdfImage} alt="" />
+        </span>{" "}
+        Download pdf
+      </Link>
+        </div>
+
+        <div>
+        <Link
+        className={`nav-link flex mb-3 align-center ${styles.documentiAtag} `}
+        href="./pdf/challenge_js.pdf"
+        download
+      >
+        {" "}
+        <span className={` pr-3 mr-3 ${styles.pdfImg}`}>
+          <Image src={pdfImage} alt="" />
+        </span>{" "}
+        Download pdf
+      </Link>
+      <Link
+        className={`nav-link flex  ${styles.documentiAtag}`}
+        href="./pdf/challenge_js.pdf"
+        download
+      >
+        {" "}
+        <span className={` pr-3 mr-3 ${styles.pdfImg}`}>
+          <Image src={pdfImage} alt="" />
+        </span>{" "}
+        Download pdf
+      </Link>
+        </div>
+
+        <div>
+        <Link
+        className={`nav-link flex mb-3 align-center ${styles.documentiAtag} `}
+        href="./pdf/challenge_js.pdf"
+        download
+      >
+        {" "}
+        <span className={` pr-3 mr-3 ${styles.pdfImg}`}>
+          <Image src={pdfImage} alt="" />
+        </span>{" "}
+        Download pdf
+      </Link>
+      <Link
+        className={`nav-link flex  ${styles.documentiAtag}`}
+        href="./pdf/challenge_js.pdf"
+        download
+      >
+        {" "}
+        <span className={` pr-3 mr-3 ${styles.pdfImg}`}>
+          <Image src={pdfImage} alt="" />
+        </span>{" "}
+        Download pdf
+      </Link>
+        </div>
+
+      </div>
+      
+      
     </div>
   );
 };

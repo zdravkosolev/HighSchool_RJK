@@ -7,9 +7,12 @@ import { NagradeniUcenici } from "../../components/Novosti/NagradeniUcenici";
 import { GrupniNagradi } from "../../components/Novosti/GrupniNagradi";
 import { Dokumenti } from "../../components/Novosti/Dokumenti";
 import { GetServerSideProps, NextPage } from "next";
+import data from "../../data.json"
 
-const NovostiPage: NextPage = ({ data }: any) => {
-  console.log(data);
+
+const NovostiPage: NextPage = ({data}:any) => {
+
+
 
   return (
     <div>
@@ -20,9 +23,9 @@ const NovostiPage: NextPage = ({ data }: any) => {
           Новости
         </p>
       </div>
-      <SoopshtenijaContainer data={data} />
+      <SoopshtenijaContainer data={data.soopshtenija} />
       <Dokumenti />
-      <NastaniContainer />
+      <NastaniContainer data={data.nastani}/>
       <OtvorenDen />
       <NagradeniUcenici />
       <GrupniNagradi />
@@ -30,6 +33,12 @@ const NovostiPage: NextPage = ({ data }: any) => {
   );
 };
 export default NovostiPage;
+
+export const getServerSideProps: GetServerSideProps = async () => {
+  return {
+    props: { data },
+  };
+};
 
 // export const getServerSideProps: GetServerSideProps = async () => {
 //   const result = await fetch(

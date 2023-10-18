@@ -12,3 +12,4 @@ export interface NastaniCardType {
   paragraph: string;
   date: string;
 }
+
