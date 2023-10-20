@@ -9,7 +9,7 @@ const UcilishnaZaednicaComponent = () =>{
 
         <>
             <div>
-                <Banner title="Училишна Заедница" image="AboutUs.png"/>
+                <Banner subtitle="Училишна Заедница" image="AboutUs.png"/>
 
 
                 <div className="w-4/5 my-20 mx-auto">

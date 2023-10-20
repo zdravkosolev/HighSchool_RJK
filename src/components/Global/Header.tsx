@@ -93,11 +93,14 @@ const Header = () => {
               staticNames={{
                 ulName: "Настава",
                 linkone: "Уписи",
+                linkOneHref:"/nastava/upisi",
                 linktwo: "Кадар",
                 linkTwoHref: "/nastava/kadar",
                 linkthree: "Филозофија",
+                linkThreeHref:"/nastava/filozofija",
                 linkfour: "Распоред на часови",
                 linkfive: "Државна матура",
+                linkFiveHref: "/nastava/drzavna-matura",
                 linksix: "Билингвална паралелка",
                 linkSixHref:"/nastava/bilingvinalna-paralelka"
               }}

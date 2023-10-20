@@ -82,20 +82,24 @@
         "image": "/Images/nastaniFrancuski.jpg",
         "title":"Француски јазик",
         "description":"На државниот натпревар по изразно читање на француски јазик 2023, на тема Страв, нашата ученичка Тамара Татабитовска од прва година билингвална паралелка...",
-        "date":"01/04/2023"
+        "fullText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, corporis! Incidunt labore earum, quam, illo repudiandae debitis harum adipisci vitae cumque veniam vel vero amet! Cum, quidem repellendus, reprehenderit similique animi voluptas reiciendis error voluptate iste repellat repudiandae sapiente. Eveniet, officiis fugiat. Deleniti repudiandae dolorem nulla consequatur atque id excepturi quibusdam labore assumenda iure amet ipsa expedita ratione, mollitia minima ea, consequuntur et similique! Animi reprehenderit aut, ea quisquam doloremque iste consequuntur voluptatem accusantium earum culpa, sunt cumque eius quasi eos dolores nulla, error assumenda temporibus fuga illum. Impedit, tempora!",
+         "date":"01/04/2023"
       },
       {
         "id": "2",
         "image":"/Images/nastaniDodeluvanjeNagradi.jpg",
         "title":"Доделување награди",
         "description":"Доделување награди и дипломи за постигнатите резултати од натпреварите по француски јазик во 2023 г. за прво, второ и трето место во организација на Bel ideal, Француски институт, АПФРМ.",
-        "date":"22/04/2023"
+        "fullText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, corporis! Incidunt labore earum, quam, illo repudiandae debitis harum adipisci vitae cumque veniam vel vero amet! Cum, quidem repellendus, reprehenderit similique animi voluptas reiciendis error voluptate iste repellat repudiandae sapiente. Eveniet, officiis fugiat. Deleniti repudiandae dolorem nulla consequatur atque id excepturi quibusdam labore assumenda iure amet ipsa expedita ratione, mollitia minima ea, consequuntur et similique! Animi reprehenderit aut, ea quisquam doloremque iste consequuntur voluptatem accusantium earum culpa, sunt cumque eius quasi eos dolores nulla, error assumenda temporibus fuga illum. Impedit, tempora!"
+        ,"date":"22/04/2023"
       },
       {
         "id": "3",
         "image":"/Images/NastaniLatinski.jpg",
         "title":"Латински јазик",
         "description":"Методија Тасевски, III 7, златна диплома на европското тестирање и прво место на државен натпревар по латински јазик.",
+        "fullText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, corporis! Incidunt labore earum, quam, illo repudiandae debitis harum adipisci vitae cumque veniam vel vero amet! Cum, quidem repellendus, reprehenderit similique animi voluptas reiciendis error voluptate iste repellat repudiandae sapiente. Eveniet, officiis fugiat. Deleniti repudiandae dolorem nulla consequatur atque id excepturi quibusdam labore assumenda iure amet ipsa expedita ratione, mollitia minima ea, consequuntur et similique! Animi reprehenderit aut, ea quisquam doloremque iste consequuntur voluptatem accusantium earum culpa, sunt cumque eius quasi eos dolores nulla, error assumenda temporibus fuga illum. Impedit, tempora!",
+       
         "date":"26/03/2023"
       }
     ],

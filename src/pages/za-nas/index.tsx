@@ -23,7 +23,7 @@ const aboutCard2: AboutCardType = {
 const AboutPage: NextPage = () => {
   return (
     <>
-      <Banner title="За нас" image="AboutUs.png" />
+      <Banner  subtitle="За Нас" image="AboutUs.png" />
       <div className="w-4/5 mx-auto">
         <AboutUsSection />
         <AboutCard aboutCard={aboutCard1} />

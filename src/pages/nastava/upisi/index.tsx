@@ -1,7 +1,13 @@
+import UpisiContainer from '@/components/UpisiContainer/UpisiContainer'
 import React from 'react'
 
-export const Upisi = () => {
+const Upisi = () => {
   return (
-    <div>Upisi PAGE LOADED</div>
+    <>
+    <UpisiContainer/>
+    </>
   )
 }
+
+
+export default Upisi
