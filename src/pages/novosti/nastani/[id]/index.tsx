@@ -13,7 +13,6 @@ const NastaniDetailPage = () => {
     marginBottom: '30px'
   };
 
-  // Find the object with the matching ID in data.soopshtenija
   const nastaniItem = data.nastani.find((item) => item.id === id);
     
   if (nastaniItem) {

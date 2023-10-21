@@ -135,6 +135,7 @@ const Header = () => {
                 ulName: "Активности ",
                 linkone: "Радио Клуб",
                 linktwo: "Клубови и драмски секции",
+                linkTwoHref: "/aktivnosti/klubovi-dramski-sekcii"
               }}
             />
           </li>

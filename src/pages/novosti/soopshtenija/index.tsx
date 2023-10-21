@@ -17,13 +17,7 @@ const NovostiPage: NextPage = ({data}:any) => {
 
   return (
     <div>
-      {/* <div className={`w-100 flex justify-center pt-9 ${styles.headSection}`}>
-        <p
-          className={`text-white text-center font-heading mt-9 pt-9 font-semibold  ${styles.headParagraph}`}
-        >
-          Новости
-        </p>
-      </div> */}
+     
         <Banner  subtitle="Новости" image='grupniNagradi.png'/>
       <SoopshtenijaContainer data={data.soopshtenija} />
       <Dokumenti />

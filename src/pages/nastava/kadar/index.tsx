@@ -2,8 +2,9 @@ import Banner from "@/components/Global/Banner";
 import DirectorSection from "@/components/Staff/DirectorSection";
 import EducationStaff from "@/components/Staff/EducationStaff";
 import StaffInfo from "@/components/Staff/StaffInfo";
-import management from "@/components/Staff/staff-data/management";
+
 import { NextPage } from "next";
+import data from "../../../data.json"
 
 const StaffPage: NextPage = () => {
   return (
@@ -14,7 +15,7 @@ const StaffPage: NextPage = () => {
         <h3 className="font-extrabold font-heading text-center text-[40px] my-10">
           Раководен кадар
         </h3>
-        {management.map((manager) => (
+        {data.menagement.map((manager:any) => (
           <StaffInfo key={manager.id} staffInfo={manager} />
         ))}
         <EducationStaff />

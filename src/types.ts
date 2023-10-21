@@ -38,3 +38,13 @@ export interface NagradeniUceniciCardType{
   place: string;
   category: string;
 }
+
+export interface KluboviDramskiSekciiType{
+  id: number;
+  image: string | StaticImport;
+  title: string;
+  description: string;
+  date: string;
+  section: string;
+}
+

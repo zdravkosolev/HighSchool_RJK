@@ -131,7 +131,913 @@
       "place": "I Место",
       "category": "Математика"
     }
-  ]
-      
+  ],
+  "menagement": [
+    {
+      "id": 1,
+      "subject": "",
+      "name": "М-р Лидија",
+      "lastname": "Стојчева",
+      "email": "pomdirektor1@schools.mk"
+    },
+    {
+      "id": 2,
+      "subject": "",
+      "name": "Жаклина",
+      "lastname": "Пандова",
+      "email": "pomdirektor2@schools.mk"
+    },
+    {
+      "id": 3,
+      "subject": "",
+      "name": "Софија",
+      "lastname": "Глигоровска",
+      "email": "pedagog@schools.mk"
+    },
+    {
+      "id": 4,
+      "subject": "",
+      "name": "Тони",
+      "lastname": "Анев",
+      "email": "psiholog@schools.mk"
+    },
+    {
+      "id": 5,
+      "subject": "",
+      "name": "М-р Катерина",
+      "lastname": "Димеска",
+      "email": "defektolog@schools.mk"
+    }
+  ],
   
+    "staff": [
+      {
+        "id": 1,
+        "subject": "Математика",
+        "name": "Сузана",
+        "lastname": "Ничота",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 2,
+        "subject": "Македонски јазик и литература",
+        "name": "Роза",
+        "lastname": "Никодиновска",
+        "email": "makedonskijazikiliteratura@schools.mk"
+      },
+      {
+        "id": 3,
+        "subject": "Македонски јазик и литература",
+        "name": "Даниела",
+        "lastname": "Богоеска",
+        "email": "makedonskijazikiliteratura@schools.mk"
+      },
+      {
+        "id": 4,
+        "subject": "Македонски јазик и литература",
+        "name": "Екатерина",
+        "lastname": "Ристовска",
+        "email": "makedonskijazikiliteratura@schools.mk"
+      },
+      {
+        "id": 5,
+        "subject": "Македонски јазик и литература",
+        "name": "Лилјана",
+        "lastname": "Стојановска",
+        "email": "makedonskijazikiliteratura@schools.mk"
+      },
+      {
+        "id": 6,
+        "subject": "Македонски јазик и литература",
+        "name": "Роска",
+        "lastname": "Јовановиќ",
+        "email": "makedonskijazikiliteratura@schools.mk"
+      },
+      {
+        "id": 7,
+        "subject": "Македонски јазик и литература",
+        "name": "М-р Митра",
+        "lastname": "Блажевска",
+        "email": "makedonskijazikiliteratura@schools.mk"
+      },
+      {
+        "id": 8,
+        "subject": "Македонски јазик и литература",
+        "name": "М-р Ана",
+        "lastname": "Вељаноска",
+        "email": "makedonskijazikiliteratura@schools.mk"
+      },
+      {
+        "id": 9,
+        "subject": "Математика",
+        "name": "Павлина",
+        "lastname": "Маркудова",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 10,
+        "subject": "Математика",
+        "name": "М-р Сузана",
+        "lastname": "Ничота",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 11,
+        "subject": "Математика",
+        "name": "Христина",
+        "lastname": "Делова",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 12,
+        "subject": "Математика",
+        "name": "Мирјана",
+        "lastname": "Димитрова",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 13,
+        "subject": "Математика ",
+        "name": "Кристина",
+        "lastname": "Гелмановска",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 14,
+        "subject": "Математика",
+        "name": "Марија",
+        "lastname": "Николова",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 15,
+        "subject": "Математика",
+        "name": "М-р Климентина",
+        "lastname": "Климоска",
+        "email": "matematika@schools.mk"
+      },
+      {
+        "id": 16,
+        "subject": "Англиски јазик",
+        "name": "Маја",
+        "lastname": "Христова",
+        "email": "angliskijazik@schools.mk"
+      },
+      {
+        "id": 17,
+        "subject": "Англиски јазик",
+        "name": "М-р Марина",
+        "lastname": "Пешовска",
+        "email": "angliskijazik@schools.mk"
+      },
+      {
+        "id": 18,
+        "subject": "Англиски јазик",
+        "name": "Татјана",
+        "lastname": "Голчева",
+        "email": "angliskijazik@schools.mk"
+      },
+      {
+        "id": 19,
+        "subject": "Англиски јазик",
+        "name": "Леонора",
+        "lastname": "Каталиниќ",
+        "email": "angliskijazik@schools.mk"
+      },
+      {
+        "id": 20,
+        "subject": "Англиски јазик",
+        "name": "М-р Јана",
+        "lastname": "Миладинова",
+        "email": "angliskijazik@schools.mk"
+      },
+      {
+        "id": 21,
+        "subject": "Германски јазик",
+        "name": "Жаклина",
+        "lastname": "Пандова",
+        "email": "germanskijazik@schools.mk"
+      },
+      {
+        "id": 22,
+        "subject": "Германски јазик",
+        "name": "Наташа",
+        "lastname": "Мирческа Атанасовска",
+        "email": "germanskijazik@schools.mk"
+      },
+      {
+        "id": 23,
+        "subject": "Француски јазик",
+        "name": "Слаѓана",
+        "lastname": "Стојановска",
+        "email": "francuskijazik@schools.mk"
+      },
+      {
+        "id": 24,
+        "subject": "Француски јазик",
+        "name": "Билјана",
+        "lastname": "Димовска",
+        "email": "francuskijazik@schools.mk"
+      },
+      {
+        "id": 25,
+        "subject": "Француски јазик",
+        "name": "Татјана",
+        "lastname": "Димовска",
+        "email": "francuskijazik@schools.mk"
+      },
+      {
+        "id": 26,
+        "subject": "Географија",
+        "name": "М-р Цвета",
+        "lastname": "Ѓорѓиевска",
+        "email": "geografija@schools.mk"
+      },
+      {
+        "id": 27,
+        "subject": "Географија",
+        "name": "М-р Весна",
+        "lastname": "Томовска",
+        "email": "geografija@schools.mk"
+      },
+      {
+        "id": 28,
+        "subject": "Историја",
+        "name": "Д-р Валентина",
+        "lastname": "Костовска",
+        "email": "istorija@schools.mk"
+      },
+      {
+        "id": 29,
+        "subject": "Историја",
+        "name": "Весна",
+        "lastname": "Вучковска",
+        "email": "istorija@schools.mk"
+      },
+      {
+        "id": 30,
+        "subject": "Историја",
+        "name": "Дарко",
+        "lastname": "Билбиловски",
+        "email": "istorija@schools.mk"
+      },
+      {
+        "id": 31,
+        "subject": "Историја",
+        "name": "Далибор",
+        "lastname": "Величковски",
+        "email": "istorija@schools.mk"
+      },
+      {
+        "id": 32,
+        "subject": "Философија Логика",
+        "name": "Драгица",
+        "lastname": "Солунчева",
+        "email": "filozofijalogika@schools.mk"
+      },
+      {
+        "id": 33,
+        "subject": "Философија Логика",
+        "name": "Љупчо",
+        "lastname": "Стевановски",
+        "email": "filozofijalogika@schools.mk"
+      },
+      {
+        "id": 34,
+        "subject": "Хемија",
+        "name": "Гордана",
+        "lastname": "Геческа",
+        "email": "hemija@schools.mk"
+      },
+      {
+        "id": 35,
+        "subject": "Хемија",
+        "name": "Билјана",
+        "lastname": "Петреска",
+        "email": "hemija@schools.mk"
+      },
+      {
+        "id": 36,
+        "subject": "Хемија",
+        "name": "Наташа",
+        "lastname": "Петреска",
+        "email": "hemija@schools.mk"
+      },
+      {
+        "id": 37,
+        "subject": "Биологија",
+        "name": "М-р Елизабета",
+        "lastname": "Дадиќ Николовска",
+        "email": "biologija@schools.mk"
+      },
+      {
+        "id": 38,
+        "subject": "Биологија",
+        "name": "Снежана",
+        "lastname": "Пеловска",
+        "email": "biologija@schools.mk"
+      },
+      {
+        "id": 39,
+        "subject": "Биологија",
+        "name": "М-р Симона",
+        "lastname": "Јовевска",
+        "email": "biologija@schools.mk"
+      },
+      {
+        "id": 40,
+        "subject": "Физика",
+        "name": "Наталија",
+        "lastname": "Христова Цигулевска",
+        "email": "fizika@schools.mk"
+      },
+      {
+        "id": 41,
+        "subject": "Физика",
+        "name": "Кирил",
+        "lastname": "Буцковски",
+        "email": "fizika@schools.mk"
+      },
+      {
+        "id": 42,
+        "subject": "Физика",
+        "name": "Анкица",
+        "lastname": "Миленковска Николовска",
+        "email": "fizika@schools.mk"
+      },
+      {
+        "id": 43,
+        "subject": "Физика",
+        "name": "Жаклина",
+        "lastname": "Маневска",
+        "email": "fizika@schools.mk"
+      },
+      {
+        "id": 44,
+        "subject": "Социологија",
+        "name": "Весна",
+        "lastname": "Стефановска",
+        "email": "sociologija@schools.mk"
+      },
+      {
+        "id": 45,
+        "subject": "Социологија",
+        "name": "Драган",
+        "lastname": "Поповски",
+        "email": "sociologija@schools.mk"
+      },
+      {
+        "id": 46,
+        "subject": "Информатика",
+        "name": "Жаклина",
+        "lastname": "Прекиќ",
+        "email": "informatika@schools.mk"
+      },
+      {
+        "id": 47,
+        "subject": "Програмски јазици",
+        "name": "Љупчо",
+        "lastname": "Коцевски",
+        "email": "programskiјazici@schools.mk"
+      },
+      {
+        "id": 48,
+        "subject": "Програмски јазици",
+        "name": "М-р Валентина",
+        "lastname": "Аниќ",
+        "email": "programskiјazici@schools.mk"
+      },
+      {
+        "id": 49,
+        "subject": "Ликовна уметност",
+        "name": "М-р Сашо",
+        "lastname": "Саздовски",
+        "email": "likovnaumetnost@schools.mk"
+      },
+      {
+        "id": 50,
+        "subject": "Ликовна уметност",
+        "name": "Сергеј",
+        "lastname": "Димовски",
+        "email": "likovnaumetnost@schools.mk"
+      },
+      {
+        "id": 51,
+        "subject": "Музичка уметност",
+        "name": "Сашо",
+        "lastname": "Ливрински",
+        "email": "muzichkaumetnost@schools.mk"
+      },
+      {
+        "id": 52,
+        "subject": "Музичка уметност",
+        "name": "Миле",
+        "lastname": "Наумовски",
+        "email": "muzichkaumetnost@schools.mk"
+      },
+      {
+        "id": 53,
+        "subject": "Спорт и спортски активности",
+        "name": "Владица",
+        "lastname": "Василевска",
+        "email": "sportisporskiiaktivnosti@schools.mk"
+      },
+      {
+        "id": 54,
+        "subject": "Спорт и спортски активности",
+        "name": "Јован",
+        "lastname": "Шапе",
+        "email": "sportisporskiiaktivnosti@schools.mk"
+      },
+      {
+        "id": 55,
+        "subject": "Спорт и спортски активности",
+        "name": "Славе",
+        "lastname": "Пејков",
+        "email": "sportisporskiiaktivnosti@schools.mk"
+      },
+      {
+        "id": 56,
+        "subject": "Бизнис и претприемништво",
+        "name": "Ацо",
+        "lastname": "Спасевski",
+        "email": "biznisipretpriemnishtvo@schools.mk"
+      },
+      {
+        "id": 57,
+        "subject": "Латински јазик",
+        "name": "Лидија",
+        "lastname": "Гелевска",
+        "email": "latinskijazik@schools.mk"
+      },
+      {
+        "id": 58,
+        "subject": "Вовед во право",
+        "name": "Маја",
+        "lastname": "Тодоровska",
+        "email": "vovedvopraso@schools.mk"
+      },
+      {
+        "id": 59,
+        "subject": "Педагогија",
+        "name": "Теодора",
+        "lastname": "Грозданovska",
+        "email": "pedagogija@schools.mk"
+      },
+      {
+        "id": 60,
+        "subject": "Економија",
+        "name": "М-р Лидија",
+        "lastname": "Стојчева",
+        "email": "ekonomija@schools.mk"
+      },
+      {
+        "id": 61,
+        "subject": "Менаџмент",
+        "name": "Весна",
+        "lastname": "Пановska",
+        "email": "menadzhment@schools.mk"
+      },
+      {
+        "id": 62,
+        "subject": "Психологија",
+        "name": "Тони",
+        "lastname": "Анев",
+        "email": "psihologija@schools.mk"
+      }
+    ],
+    "klubovisekcii":[
+      {
+        "id": 1,
+        "section": "Информатички клуб",
+        "image": "/Images/HomepageNovostiCard1.png",
+        "title": "Наслов",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+        "date":"01/04/2023"
+    },
+    {
+      "id": 2,
+      "section": "Новинарски клуб",
+      "image": "/Images/HomepageNovostiCard3.png",
+      "title": "Наслов",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+      "date":"01/04/2023"
+  },
+  {
+    "id": 3,
+    "section": "Еко клуб РЈК",
+    "image": "/Images/HomepageNovostiCard1.png",
+    "title": "Наслов",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    "date":"01/04/2023"
+},
+{
+  "id": 4,
+  "section": "Математички клуб",
+  "image": "/Images/HomepageNovostiCard2.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+  "id": 5,
+  "section": "Физика клуб",
+  "image": "/Images/HomepageNovostiCard1.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+  "id": 6,
+  "section": "Драмска секција",
+  "image": "/Images/HomepageNovostiCard3.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+  "id": 7,
+  "section": "Филозофија клуб",
+  "image": "/Images/HomepageNovostiCard1.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+  "id": 8,
+  "section": "Биологија клуб",
+  "image": "/Images/HomepageNovostiCard2.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+  "id": 9,
+  "section": "Географија клуб",
+  "image": "/Images/HomepageNovostiCard1.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+  "id": 10,
+  "section": "Информатички клуб",
+  "image": "/Images/HomepageNovostiCard3.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+"id": 11,
+"section": "Новинарски клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 12,
+"section": "Еко клуб РЈК",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 13,
+"section": "Математички клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 14,
+"section": "Физика клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 15,
+"section": "Драмска секција",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 16,
+"section": "Филозофија клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 17,
+"section": "Биологија клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 18,
+"section": "Географија клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+  "id": 19,
+  "section": "Информатички клуб",
+  "image": "/Images/HomepageNovostiCard3.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+"id": 20,
+"section": "Новинарски клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 21,
+"section": "Еко клуб РЈК",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 22,
+"section": "Математички клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 23,
+"section": "Физика клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 24,
+"section": "Драмска секција",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 25,
+"section": "Филозофија клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 26,
+"section": "Биологија клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 27,
+"section": "Географија клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+  "id": 28,
+  "section": "Информатички клуб",
+  "image": "/Images/HomepageNovostiCard3.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+"id": 29,
+"section": "Новинарски клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 30,
+"section": "Еко клуб РЈК",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 31,
+"section": "Математички клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 32,
+"section": "Физика клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 33,
+"section": "Драмска секција",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 34,
+"section": "Филозофија клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 35,
+"section": "Биологија клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 36,
+"section": "Географија клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+  "id": 37,
+  "section": "Информатички клуб",
+  "image": "/Images/HomepageNovostiCard2.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+"id": 38,
+"section": "Новинарски клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 39,
+"section": "Еко клуб РЈК",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 40,
+"section": "Математички клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 41,
+"section": "Физика клуб",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 42,
+"section": "Драмска секција",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 43,
+"section": "Филозофија клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 44,
+"section": "Биологија клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 45,
+"section": "Географија клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+  "id": 46,
+  "section": "Информатички клуб",
+  "image": "/Images/HomepageNovostiCard3.png",
+  "title": "Наслов",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+  "date":"01/04/2023"
+},
+{
+"id": 47,
+"section": "Новинарски клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 48,
+"section": "Еко клуб РЈК",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 49,
+"section": "Математички клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 50,
+"section": "Физика клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 51,
+"section": "Драмска секција",
+"image": "/Images/HomepageNovostiCard3.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 52,
+"section": "Филозофија клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 53,
+"section": "Биологија клуб",
+"image": "/Images/HomepageNovostiCard1.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
+},
+{
+"id": 54,
+"section": "Географија клуб",
+"image": "/Images/HomepageNovostiCard2.png",
+"title": "Наслов",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lobortis neque, vitae imperdiet purus. Vestibulum in malesuada lectus. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+"date":"01/04/2023"
 }
+  ]
+  }

@@ -1,25 +1,25 @@
 import React, { useState } from "react";
-import staff from "@/components/Staff/staff-data/staff";
 import FilterBtn from "./FilterBtn";
 import StaffInfo from "./StaffInfo";
 import { StaffInfoType } from "@/types";
+import data from "../../data.json"
 
 const EducationStaff = () => {
-  const mathTeachers: StaffInfoType[] = staff.filter(
+  const mathTeachers: StaffInfoType[] = data.staff.filter(
     (teacher) => teacher.subject === "Математика"
   );
 
   const [filteredTeachers, setFilteredTeachers] = useState(mathTeachers);
   const [activeFilter, setActiveFilter] = useState("Математика");
 
-  const subjects = staff.map((teacher) => teacher.subject);
+  const subjects = data.staff.map((teacher) => teacher.subject);
   const uniqeSubjects = new Set();
 
   subjects.forEach((subject) => uniqeSubjects.add(subject));
   const uniqeSubjectTypes: string[] = Array.from(uniqeSubjects) as string[];
 
   function handleFilter(subject: string) {
-    const filteredTeachers = staff.filter(
+    const filteredTeachers = data.staff.filter(
       (teacher) => teacher.subject === subject
     );
     setActiveFilter(subject);

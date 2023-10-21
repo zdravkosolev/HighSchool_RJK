@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
+
 const DirectorSection = () => {
   return (
     <div className="flex items-center justify-center">

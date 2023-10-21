@@ -7,7 +7,7 @@ const SoopshtenijaDetail = () => {
   const router = useRouter();
   const { id } = router.query;
 
-  // Find the object with the matching ID in data.soopshtenija
+  
   const soopshtenijaItem = data.soopshtenija.find((item) => item.id === id);
     
   if (soopshtenijaItem) {
