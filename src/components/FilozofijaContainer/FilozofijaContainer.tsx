@@ -32,9 +32,9 @@ const FilozofijaContainer = () => {
                 <ButtonPrimary color="white" text="IV-8" textStyles={{  fontSize: "18px" }}/>
             </div>
             <div className="w-4/5 my-20 mx-auto flex justify-between">
-            <Image width={400} height={300} src={"/Images/galerijaKc1.png"}/>
-            <Image width={400} height={300} src={"/Images/galerijaKc2.png"}/>
-            <Image width={400} height={300} src={"/Images/galerijaKc3.png"}/>
+            <Image width={400} height={300} src={"/Images/galerijaKc1.png"} alt="/"/>
+            <Image width={400} height={300} src={"/Images/galerijaKc2.png"} alt="/"/>
+            <Image width={400} height={300} src={"/Images/galerijaKc3.png"} alt="/"/>
             </div>
 
 

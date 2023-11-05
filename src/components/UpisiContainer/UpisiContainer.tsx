@@ -16,7 +16,7 @@ const UpisiContainer = () => {
         <div className="w-4/5 my-20 mx-auto">
           <p className="pb-10">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -30,7 +30,7 @@ const UpisiContainer = () => {
             <div>
               <p className="pb-5">
                 Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industrys
                 standard dummy text ever since the 1500s
               </p>
               <div className="pl-6">
@@ -38,35 +38,35 @@ const UpisiContainer = () => {
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
@@ -78,7 +78,7 @@ const UpisiContainer = () => {
         <div className="w-4/5 my-20 mx-auto">
           <p className="pb-10">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
@@ -92,7 +92,7 @@ const UpisiContainer = () => {
             <div>
               <p className="pb-5">
                 Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
+                typesetting industry. Lorem Ipsum has been the industrys
                 standard dummy text ever since the 1500s
               </p>
               <div className="pl-6">
@@ -100,35 +100,35 @@ const UpisiContainer = () => {
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
                   <li>
                     <p>
                       Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
+                      typesetting industry. Lorem Ipsum has been the industrys
                       standard dummy text ever since the 1500s
                     </p>
                   </li>
