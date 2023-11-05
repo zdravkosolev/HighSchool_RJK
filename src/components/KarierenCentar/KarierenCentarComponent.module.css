@@ -1,0 +1,31 @@
+.HeaderProps{
+    font-size: 40px;
+}
+.rotate15 {
+    transform: rotate(25deg);
+    padding-left: 50px;
+    margin-bottom: 10px;
+  }
+.ContainersProps{
+    width: 100%;
+    margin: 0px 15px;
+    border-bottom: 1px solid #00CD42;
+}
+.NumbersProps{
+    color: var(--Dark-blue, #023859);
+text-align: center;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: 88px; 
+}
+.TextProps{
+    color: var(--Dark-blue, #023859);
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%;
+text-transform: uppercase;
+margin-bottom: 20px;
+}

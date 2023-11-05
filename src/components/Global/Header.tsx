@@ -122,7 +122,9 @@ const Header = () => {
             <DropDownMenuList
               staticNames={{
                 ulName: "Кариерен центар ",
-                linkone: "Алумни",
+                linkone: "Кариерен центар",
+                linkOneHref:"/karieren-centar",
+                linktwo: "Алумни"
               }}
             />
           </li>

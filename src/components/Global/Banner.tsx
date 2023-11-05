@@ -13,7 +13,7 @@ const Banner = ({ title, image, subtitle }: Props) => {
       <h2 className="font-semibold text-[64px] font-heading mb-2">{subtitle}</h2>
       <span className="font-regular text-xl">
         Почетна/{title}
-        {subtitle && "/"}
+        {subtitle && ""}
         {subtitle}
       </span>
     </div>
